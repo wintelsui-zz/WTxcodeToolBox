@@ -14,7 +14,7 @@ OS X - Application Extensions - Xcode Source Editor
 插件是可以在Xcode的Preferences的Key Bindings中设置快捷键的 
 ###########################################################################################
 最近使用xcode8 尝试开发一些新的SDK时,很郁闷,有 注释bug 和 不能用VVDocumenter所以花几个小时搞一个超级点单的山寨,
-所以简单的自己先写一个插件自己用着,也许会在日后优化,更新功能😄,不过也不一定,
+所以简单的自己先写一个插件自己用着,也许会在日后优化,更新功能😄,不过也不一定,丢人现眼了O(∩_∩)O哈！
 也在研究的同学可以看看这个简单的Demo
 不喜勿喷,学习中......
 ###########################################################################################
@@ -25,5 +25,6 @@ OS X - Application Extensions - Xcode Source Editor
 
 (1):CommentStatement 注释掉代码(即xcode原有的Comment Statement功能,因为xcode 8有bug 所以...)等效于 "command + /";
 
-(2):DocumentAdd      添加注释 (超级简单的山寨VVDocumenter).
+(2):DocumentAdd      添加注释 (超级简单的山寨VVDocumenter)...暂时只能识别Objective-C
+
 
