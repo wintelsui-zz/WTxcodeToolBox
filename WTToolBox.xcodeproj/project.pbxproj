@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B988FB71D75D90D00613DC2 /* CodeStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B988FB61D75D90D00613DC2 /* CodeStatement.m */; };
+		FCD563C11D756A4E00CB8077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD563C01D756A4E00CB8077 /* AppDelegate.m */; };
+		FCD563C41D756A4E00CB8077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD563C31D756A4E00CB8077 /* main.m */; };
+		FCD563C71D756A4E00CB8077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD563C61D756A4E00CB8077 /* ViewController.m */; };
+		FCD563C91D756A4E00CB8077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD563C81D756A4E00CB8077 /* Assets.xcassets */; };
+		FCD563CC1D756A4E00CB8077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD563CA1D756A4E00CB8077 /* Main.storyboard */; };
+		FCD563F11D75708F00CB8077 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD563D91D756A6A00CB8077 /* Cocoa.framework */; };
+		FCD563F71D75708F00CB8077 /* CommentStatementExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD563F61D75708F00CB8077 /* CommentStatementExtension.m */; };
+		FCD563FA1D75708F00CB8077 /* CommentStatementCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD563F91D75708F00CB8077 /* CommentStatementCommand.m */; };
+		FCD563FE1D75708F00CB8077 /* CommentStatement.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FCD563F01D75708F00CB8077 /* CommentStatement.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD563FC1D75708F00CB8077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD563B41D756A4E00CB8077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD563EF1D75708F00CB8077;
+			remoteInfo = CommentStatement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCD563EB1D756A6A00CB8077 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCD563FE1D75708F00CB8077 /* CommentStatement.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B988FB51D75D90D00613DC2 /* CodeStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeStatement.h; sourceTree = "<group>"; };
+		2B988FB61D75D90D00613DC2 /* CodeStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeStatement.m; sourceTree = "<group>"; };
+		FCD563BC1D756A4E00CB8077 /* WTToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD563BF1D756A4E00CB8077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD563C01D756A4E00CB8077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCD563C31D756A4E00CB8077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD563C51D756A4E00CB8077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCD563C61D756A4E00CB8077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCD563C81D756A4E00CB8077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD563CB1D756A4E00CB8077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD563CD1D756A4E00CB8077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD563D91D756A6A00CB8077 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FCD563F01D75708F00CB8077 /* CommentStatement.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CommentStatement.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD563F41D75708F00CB8077 /* CommentStatement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CommentStatement.entitlements; sourceTree = "<group>"; };
+		FCD563F51D75708F00CB8077 /* CommentStatementExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentStatementExtension.h; sourceTree = "<group>"; };
+		FCD563F61D75708F00CB8077 /* CommentStatementExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentStatementExtension.m; sourceTree = "<group>"; };
+		FCD563F81D75708F00CB8077 /* CommentStatementCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentStatementCommand.h; sourceTree = "<group>"; };
+		FCD563F91D75708F00CB8077 /* CommentStatementCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentStatementCommand.m; sourceTree = "<group>"; };
+		FCD563FB1D75708F00CB8077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD563B91D756A4E00CB8077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD563ED1D75708F00CB8077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD563F11D75708F00CB8077 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD563B31D756A4E00CB8077 = {
+			isa = PBXGroup;
+			children = (
+				FCD563BE1D756A4E00CB8077 /* WTToolBox */,
+				FCD563F21D75708F00CB8077 /* CommentStatement */,
+				FCD563D81D756A6A00CB8077 /* Frameworks */,
+				FCD563BD1D756A4E00CB8077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD563BD1D756A4E00CB8077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD563BC1D756A4E00CB8077 /* WTToolBox.app */,
+				FCD563F01D75708F00CB8077 /* CommentStatement.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD563BE1D756A4E00CB8077 /* WTToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				FCD563BF1D756A4E00CB8077 /* AppDelegate.h */,
+				FCD563C01D756A4E00CB8077 /* AppDelegate.m */,
+				FCD563C51D756A4E00CB8077 /* ViewController.h */,
+				FCD563C61D756A4E00CB8077 /* ViewController.m */,
+				FCD563C81D756A4E00CB8077 /* Assets.xcassets */,
+				FCD563CA1D756A4E00CB8077 /* Main.storyboard */,
+				FCD563CD1D756A4E00CB8077 /* Info.plist */,
+				FCD563C21D756A4E00CB8077 /* Supporting Files */,
+			);
+			path = WTToolBox;
+			sourceTree = "<group>";
+		};
+		FCD563C21D756A4E00CB8077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD563C31D756A4E00CB8077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD563D81D756A6A00CB8077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD563D91D756A6A00CB8077 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCD563F21D75708F00CB8077 /* CommentStatement */ = {
+			isa = PBXGroup;
+			children = (
+				FCD563F51D75708F00CB8077 /* CommentStatementExtension.h */,
+				FCD563F61D75708F00CB8077 /* CommentStatementExtension.m */,
+				FCD563F81D75708F00CB8077 /* CommentStatementCommand.h */,
+				FCD563F91D75708F00CB8077 /* CommentStatementCommand.m */,
+				2B988FB51D75D90D00613DC2 /* CodeStatement.h */,
+				2B988FB61D75D90D00613DC2 /* CodeStatement.m */,
+				FCD563FB1D75708F00CB8077 /* Info.plist */,
+				FCD563F31D75708F00CB8077 /* Supporting Files */,
+			);
+			path = CommentStatement;
+			sourceTree = "<group>";
+		};
+		FCD563F31D75708F00CB8077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD563F41D75708F00CB8077 /* CommentStatement.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD563BB1D756A4E00CB8077 /* WTToolBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD563D01D756A4E00CB8077 /* Build configuration list for PBXNativeTarget "WTToolBox" */;
+			buildPhases = (
+				FCD563B81D756A4E00CB8077 /* Sources */,
+				FCD563B91D756A4E00CB8077 /* Frameworks */,
+				FCD563BA1D756A4E00CB8077 /* Resources */,
+				FCD563EB1D756A6A00CB8077 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD563FD1D75708F00CB8077 /* PBXTargetDependency */,
+			);
+			name = WTToolBox;
+			productName = WTToolBox;
+			productReference = FCD563BC1D756A4E00CB8077 /* WTToolBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD563EF1D75708F00CB8077 /* CommentStatement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD563FF1D75708F00CB8077 /* Build configuration list for PBXNativeTarget "CommentStatement" */;
+			buildPhases = (
+				FCD563EC1D75708F00CB8077 /* Sources */,
+				FCD563ED1D75708F00CB8077 /* Frameworks */,
+				FCD563EE1D75708F00CB8077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommentStatement;
+			productName = CommentStatement;
+			productReference = FCD563F01D75708F00CB8077 /* CommentStatement.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD563B41D756A4E00CB8077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wintel;
+				TargetAttributes = {
+					FCD563BB1D756A4E00CB8077 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NPHT5X6NWX;
+						ProvisioningStyle = Automatic;
+					};
+					FCD563EF1D75708F00CB8077 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NPHT5X6NWX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCD563B71D756A4E00CB8077 /* Build configuration list for PBXProject "WTToolBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD563B31D756A4E00CB8077;
+			productRefGroup = FCD563BD1D756A4E00CB8077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD563BB1D756A4E00CB8077 /* WTToolBox */,
+				FCD563EF1D75708F00CB8077 /* CommentStatement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD563BA1D756A4E00CB8077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD563C91D756A4E00CB8077 /* Assets.xcassets in Resources */,
+				FCD563CC1D756A4E00CB8077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD563EE1D75708F00CB8077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD563B81D756A4E00CB8077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD563C71D756A4E00CB8077 /* ViewController.m in Sources */,
+				FCD563C41D756A4E00CB8077 /* main.m in Sources */,
+				FCD563C11D756A4E00CB8077 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD563EC1D75708F00CB8077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD563F71D75708F00CB8077 /* CommentStatementExtension.m in Sources */,
+				FCD563FA1D75708F00CB8077 /* CommentStatementCommand.m in Sources */,
+				2B988FB71D75D90D00613DC2 /* CodeStatement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD563FD1D75708F00CB8077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD563EF1D75708F00CB8077 /* CommentStatement */;
+			targetProxy = FCD563FC1D75708F00CB8077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD563CA1D756A4E00CB8077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD563CB1D756A4E00CB8077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD563CE1D756A4E00CB8077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCD563CF1D756A4E00CB8077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCD563D11D756A4E00CB8077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				INFOPLIST_FILE = WTToolBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wintel.WTToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD563D21D756A4E00CB8077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				INFOPLIST_FILE = WTToolBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wintel.WTToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCD564001D75708F00CB8077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CommentStatement/CommentStatement.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				INFOPLIST_FILE = CommentStatement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wintel.WTToolBox.CommentStatement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCD564011D75708F00CB8077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CommentStatement/CommentStatement.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				INFOPLIST_FILE = CommentStatement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wintel.WTToolBox.CommentStatement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD563B71D756A4E00CB8077 /* Build configuration list for PBXProject "WTToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD563CE1D756A4E00CB8077 /* Debug */,
+				FCD563CF1D756A4E00CB8077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD563D01D756A4E00CB8077 /* Build configuration list for PBXNativeTarget "WTToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD563D11D756A4E00CB8077 /* Debug */,
+				FCD563D21D756A4E00CB8077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD563FF1D75708F00CB8077 /* Build configuration list for PBXNativeTarget "CommentStatement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD564001D75708F00CB8077 /* Debug */,
+				FCD564011D75708F00CB8077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD563B41D756A4E00CB8077 /* Project object */;
+}
