@@ -20,7 +20,10 @@ OS X - Application Extensions - Xcode Source Editor
 ###########################################################################################
 
 1:CommentStatement 插件
+
 包含功能:
+
 (1):CommentStatement 注释掉代码(即xcode原有的Comment Statement功能,因为xcode 8有bug 所以...)等效于 "command + /";
+
 (2):DocumentAdd      添加注释 (超级简单的山寨VVDocumenter).
 
