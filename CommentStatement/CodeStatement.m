@@ -191,6 +191,7 @@
                     range.location = start;
                     range.length = end - start;
                     NSString *parameterName = [stringParameter substringWithRange:range];
+                    parameterName = [parameterName stringByReplacingOccurrencesOfString:@"\n" withString:@""];
                     if (parameterName != nil && parameterName.length > 0) {
                         if (range.length >= lengthMax) {
                             lengthMax = range.length;
@@ -210,23 +211,23 @@
                 [strtup appendString:@" "];
             }
             
-            [strtup appendFormat:@"<#%@#>\n",parameterName];
+            [strtup appendFormat:@"<#%@ description#> \n",parameterName];
             [insertStrings addObject:strtup];
+            NSLog(@"%@",strtup);
             parameter = YES;
         }
-        
         if (parameter) {
             [insertStrings addObject:@" *\n"];
         }
     }
     if (returnNA) {
         if (1){
-            [insertStrings addObject:@" *  @return N/A\n"];
+            [insertStrings addObject:@" *  @return N/A \n"];
         }
     }else{
-        [insertStrings addObject:@" *  @return <#return#>\n"];
+        [insertStrings addObject:@" *  @return <#return description#> \n"];
     }
-    [insertStrings addObject:@" */\n"];
+    [insertStrings addObject:@" */ \n"];
     
     for (int i = 0 ; i < [insertStrings count]; i++){
         NSString *ins = [insertStrings objectAtIndex:i];
