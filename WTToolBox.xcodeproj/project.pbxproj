@@ -207,12 +207,12 @@
 				TargetAttributes = {
 					FCD563BB1D756A4E00CB8077 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NPHT5X6NWX;
+						DevelopmentTeam = SM4XKFF6K3;
 						ProvisioningStyle = Automatic;
 					};
 					FCD563EF1D75708F00CB8077 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NPHT5X6NWX;
+						DevelopmentTeam = SM4XKFF6K3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -391,7 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				DEVELOPMENT_TEAM = SM4XKFF6K3;
 				INFOPLIST_FILE = WTToolBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wintel.WTToolBox;
@@ -405,7 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				DEVELOPMENT_TEAM = SM4XKFF6K3;
 				INFOPLIST_FILE = WTToolBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wintel.WTToolBox;
@@ -419,7 +419,7 @@
 				CODE_SIGN_ENTITLEMENTS = CommentStatement/CommentStatement.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				DEVELOPMENT_TEAM = SM4XKFF6K3;
 				INFOPLIST_FILE = CommentStatement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -435,7 +435,7 @@
 				CODE_SIGN_ENTITLEMENTS = CommentStatement/CommentStatement.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NPHT5X6NWX;
+				DEVELOPMENT_TEAM = SM4XKFF6K3;
 				INFOPLIST_FILE = CommentStatement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

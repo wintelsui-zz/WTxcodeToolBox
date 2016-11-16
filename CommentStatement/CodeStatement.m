@@ -143,7 +143,7 @@
     [insertStrings addObject:@" *  @brief  <#brief#>\n"];
     [insertStrings addObject:@" *\n"];
     
-    BOOL returnNA = YES;
+    BOOL returnNA = NO;
     
     NSArray *cut = [stringDuel componentsSeparatedByString:@":"];
     NSInteger cutCount = [cut count];
@@ -155,7 +155,7 @@
                 for (id XX in array_return) {
                     NSRange resultRange = [XX rangeAtIndex:0];
                     NSString *result = [stringReturn substringWithRange:resultRange];
-                    if ([result rangeOfString:@"void"].length > 0) {
+                    if ([[result lowercaseString] rangeOfString:@"void"].length > 0) {
                         returnNA = YES;
                     }
                     break;
