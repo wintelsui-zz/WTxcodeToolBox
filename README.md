@@ -2,10 +2,6 @@
 
 WTxcodeToolBox
 
-Xcode Source Editor Extensions for Xcode 8
-第一次需要打开terminal，然后执行命令sudo /usr/libexec/xpccachectl 一次,
-可能是Extension 需要 建议重启电脑.
-
 OS X - Application Extensions - Xcode Source Editor 
 
 编写好你的代码之后，运行extension scheme，当弹出"Choose an app to run"菜单时，选择Xcode 8，打开任意源文件，你的插件就会在"Editor"菜单出现。如果未出现,可能是因为你没有选择开发证书(免费 or 收费)都可
@@ -31,4 +27,13 @@ OS X - Application Extensions - Xcode Source Editor
 
 (2):DocumentAdd      添加注释 (超级简单的山寨VVDocumenter)...暂时只能识别Objective-C
 ![Screenshot](https://github.com/wintelsui/WTxcodeToolBox/blob/master/documentAdd.gif?raw=true)
+
+
+*******************************************************************************************
+也许一些问题
+
+Xcode Source Editor Extensions for Xcode 8
+第一次需要打开terminal，然后执行命令sudo /usr/libexec/xpccachectl 一次,
+可能是Extension 需要 建议重启电脑.
+
 
